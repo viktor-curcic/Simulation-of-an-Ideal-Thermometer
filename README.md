@@ -8,7 +8,7 @@ This simulation models an ideal gas system interacting with Maxwell’s Demon to
 - Validation of Maxwell-Boltzmann velocity distributions  
 - Energy exchange dynamics between microscopic systems  
 
-Key result: The demon’s energy distribution follows \( P(E_d) \propto e^{-E_d/k_BT} \) while maintaining gas temperature within 0.15% of initial value (299.55 K vs 300 K).
+Key result: The demon’s energy distribution follows `P(E_d) ~ exp(-E_d/k_BT)` while maintaining gas temperature within 0.15% of initial value (299.55 K vs 300 K).
 
 ## Repository Contents  
 - `simulacija.ipynb`: Jupyter notebook containing the complete simulation and analysis  
